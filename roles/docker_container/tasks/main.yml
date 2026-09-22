@@ -1,5 +1,5 @@
 - name: Ejecutar Mario Bros
-  docker_container:
+  community.docker.docker_container:
     name: supermario-container
     image: "pengbai/docker-supermario:latest"
     state: started
